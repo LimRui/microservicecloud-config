@@ -22,7 +22,7 @@ spring:
       max-wait-millis: 200
 mybatis:
     config-location: classpath:mybatis/mybatis.cfg.xml
-    type-aliases-package: com.noodles.springcloud.entities
+    type-aliases-package: com.atguigu.springcloud.entities
     mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
 
@@ -59,7 +59,7 @@ spring:
       max-wait-millis: 200
 mybatis:
     config-location: classpath:mybatis/mybatis.cfg.xml
-    type-aliases-package: com.noodles.springcloud.entities
+    type-aliases-package: com.atguigu.springcloud.entities
     mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
 
@@ -72,7 +72,7 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: noodles-microservicecloud-springcloudconfig02
-  company.name: www.google.com
+  app.name: atguigu-microservicecloud-springcloudconfig01
+  company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
